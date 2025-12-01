@@ -1,6 +1,6 @@
 Day 1 - Chapter 1
 1) Print ():-
-=> The Python print() function is a built-in function that outputs one or more objects to the standard output device(console)
+=> The Python print() function is a built-in function that outputs one or more objects to the standard output device (the console).
 => Essential for displaying messages, values or debugging information during program execution. 
 
 Example:- 
