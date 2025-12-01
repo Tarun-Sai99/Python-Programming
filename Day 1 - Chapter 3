@@ -1,0 +1,10 @@
+Day 1 - Chapter 3
+3) input ():- 
+=> The input() is a built-in function that asks the user for text while the program is running and that returns that text as a string to your code. 
+
+Example:- 
+input("What is yo name General?!")
+
+Difference between print() and the input()
+print() -> Sends text out to the user. Show things on the screen. 
+input() -> Gets text in from the user. Waits for the user to type, then gives that text back to your code as a string. 
