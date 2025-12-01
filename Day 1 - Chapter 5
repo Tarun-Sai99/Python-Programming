@@ -1,0 +1,10 @@
+Day 1 - Chapter 5
+5) Length of the string
+=> It is a built-in function that returns the number of characters in a string. 
+
+Example:- 
+1)name = "Spartan"
+print(len(name)) #7
+
+2)greeting = "Hello Boss" 
+print(len(greeting)) #10
