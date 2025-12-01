@@ -1,0 +1,11 @@
+Day 1 - Chapter 4
+4) Variables
+=> Variables are like containers that hold the data (Values) in your program. 
+=> You assign a value to a variable using the equal sign "=".
+=> You can store different types of data.
+=> You can then use the variable names to refer to the stored values anywhere in your code
+
+Example:- 
+name = "Spartan"
+age = 21
+height = 5'8
