@@ -1,0 +1,14 @@
+Day 2 - Chapter 5
+5) f - strings
+=> f-strings are a clean way to put variables and expressions directly inside a string using {} with an f in front of the string.
+
+Example: - 
+i.
+name = "Azuma"
+age = 21
+print(f"My name is {name} and I am {age} years old.")
+
+ii.
+score = 45
+print(f"Your score is {score} out of {50}")
+print(f"Next year you will be {age + 1} years old.")
