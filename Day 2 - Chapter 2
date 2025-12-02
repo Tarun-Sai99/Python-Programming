@@ -1,0 +1,10 @@
+Day 2 - Chapter 2 
+2) Subscripting
+=> Subscripting means accessing individual characters of a string by their position.
+=> In Python, strings are sequences of characters, and each character has a position (index) starting from 0. 
+
+Example:- 
+name = Azuma
+print(name[0])  # A
+print(name[1])  # z
+print(name[4])  # a
