@@ -1,0 +1,23 @@
+Day 2 - Chapter 3
+Mathematical Operations
+
+Example:- 
+i. a = 7
+   b = 2
+
+print(a + b)   # 9
+print(a - b)   # 5
+print(a * b)   # 14
+print(a / b)   # 3.5
+print(a // b)  # 3
+print(a % b)   # 1
+print(a ** b)  # 49
+
+ii. 
+print("My age is " + str(12))
+print(123 + 456)
+print(7 - 2)
+print(3 * 2)
+print(6 / 3)
+print(6 // 3)
+print(2 ** 2)
