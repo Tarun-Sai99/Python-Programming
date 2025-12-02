@@ -1,0 +1,21 @@
+Day 2 - Chapter 1
+1) Primitive Data Types.
+=> Python primitive data types are the most basic kinds of values you can store in variables: numbers, text, and true/false values.
+=>The 4 main primitive data types you’ll use all the time are:​
+i.int → integers (whole numbers),
+ii.float → decimal numbers.
+iii.str → strings (text). 
+iv.bool → booleans (truth values).
+
+Example:- 
+age = 21          # int
+height = 5.9      # float
+name = "Azuma"    # str
+is_student = True # bool
+
+You can check the type using type():
+print(type(age))       # lass 'int'>
+print(type(height))    # lass 'float'>
+print(type(name))      # lass 'str'>
+print(type(is_student))# lass 'bool'>
+
