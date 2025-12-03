@@ -1,0 +1,42 @@
+Day 3 - Chapter 3
+Nested if and elif statements
+=> Nested if and elif statements let you handle more complex decisions: “if this and also that… otherwise if something else…”.
+
+Example for if statement:- 
+age = 20
+has_license = True
+if age >= 18:
+    print("You are an adult.")
+    if has_license:
+        print("You can drive.")
+    else:
+        print("You are an adult but cannot drive.")
+else:
+    print("You are not an adult.")
+
+Example for elif statement:- 
+score = 72
+if score >= 90:
+    print("Grade A")
+elif score >= 80:
+    print("Grade B")
+elif score >= 70:
+    print("Grade C")
+else:
+    print("Grade D")
+
+Example for Nested + elif statement:-
+age = 25
+income = 60000
+
+if age >= 18:
+    if income >= 100000:
+        print("High-income adult.")
+    elif income >= 50000:
+        print("Mid-income adult.")
+    else:
+        print("Low-income adult.")
+else:
+    print("Minor.")
+
+
