@@ -1,0 +1,26 @@
+Day 3 - Chapter 1
+1) Conditional Statements:- 
+=> Conditional statements let your program make decisions: “if this is true, do this; otherwise, do something else.”
+
+Basic if statement:- 
+age = 18
+if age >= 18:
+    print("You are an adult.")
+
+Basic if - else statement:-
+age = 16
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+
+Basic if – elif – else:- 
+score = 85
+if score >= 90:
+    print("Grade A")
+elif score >= 75:
+    print("Grade B")
+elif score >= 60:
+    print("Grade C")
+else:
+    print("Grade D")
