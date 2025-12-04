@@ -1,0 +1,34 @@
+Day 4 - Project 
+Rock, Paper and Scissors
+
+import random
+
+print("Welcome to Rock, Paper, Scissors!")
+
+# 0 = Rock, 1 = Paper, 2 = Scissors
+choices = ["rock", "paper", "scissors"]
+
+user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper, 2 for Scissors:\n"))
+
+# Check for invalid input
+if user_choice < 0 or user_choice > 2:
+    print("Invalid choice, you lose!")
+else:
+    user_move = choices[user_choice]
+
+    computer_choice = random.randint(0, 2)
+    computer_move = choices[computer_choice]
+
+    print(f"You chose: {user_move}")
+    print(f"Computer chose: {computer_move}")
+
+    if user_choice == computer_choice:
+        print("It's a draw.")
+    elif user_choice == 0 and computer_choice == 2:
+        print("You win!")
+    elif user_choice == 1 and computer_choice == 0:
+        print("You win!")
+    elif user_choice == 2 and computer_choice == 1:
+        print("You win!")
+    else:
+        print("You lose.")
