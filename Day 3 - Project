@@ -1,0 +1,32 @@
+Day 3 - Project
+Treasure Map
+
+print("Welcome to the Treasure Land!")
+print("Your mission is to find the hidden treasure.")
+
+choice1 = input("You are at a crossroad. Which way do you want to go? Type 'left' or 'right': ").lower()
+
+if choice1 == "left":
+  choice2 = input("You've come to a lake. There's an island in the middle. Type 'wait' for a boat or 'swim' to swim across: ").lower()
+
+  if choice2 == "wait":
+    choice3 = input("A boat arrives and takes you to the island. You see three doors: red, blue, or yellow. Which one do you choose? ").lower()
+
+    if choice3 == "red":
+      print("It's a room full of fire! Game Over.")
+    elif choice3 == "blue":
+      print("You enter a room with aggressive beasts! Game Over.")
+    elif choice3 == "yellow":
+      print("Congratulations! You found the treasure! You Win!")
+    else:
+      print("You hesitated, and a trap sprung. Game Over.")
+
+  elif choice2 == "swim":
+    print("You are attacked by a giant lake monster! Game Over.")
+  else:
+    print("You didn't make a clear decision and fell into the water. Game Over.")
+
+elif choice1 == "right":
+  print("You fell into a hidden pit! Game Over.")
+else:
+  print("You stood there bewildered and a goblin snuck up on you! Game Over.")
