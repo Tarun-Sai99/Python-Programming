@@ -1,0 +1,26 @@
+Day 3 - Chapter 4
+4) Logical Operators
+=> Logical operators let you combine conditions in if statements. 
+=> Python has three operators 
+i. and 
+ii. or 
+iii. not
+
+Example for and:- 
+age = 20
+has_id = True
+if age >= 18 and has_id:
+    print("You may enter.")
+
+Example for or:- 
+age = 20
+has_id = True
+if age >= 18 or has_id:
+    print("You might be allowed.")
+
+Example for not:-
+age = 20
+has_id - True
+is_raining = False
+if not is_raining:
+    print("Go outside.")
