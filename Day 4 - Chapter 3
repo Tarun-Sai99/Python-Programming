@@ -1,0 +1,19 @@
+Day 4 - Chapter 3
+3) Lists
+=> Lists in Python are ordered collections of items (values) that you can store in a single variable and change later. They are one of the most important data structures for Python and data science.
+Example:-
+states_of_usa = ["California", "Texas", "Florida"]
+numbers = [10, 20, 30, 40]
+mixed = ["Azuma", 21, 5.9, True]
+print(states_of_usa[0])
+print(states_of_usa[1])
+=> We can change and use the lists. 
+states_of_usa[1] = "New Texas"      # modify
+states_of_usa.append("New York")    # add at end
+print(len(states_of_usa))           # length of the list
+
+
+
+
+
+
