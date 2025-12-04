@@ -1,0 +1,17 @@
+Day 4 - Chapter 1
+1) Randomization
+Randomization is about making your program do things by chance, like rolling dice or picking a random winner.
+Example:- 
+i.
+import random
+random_integer = random.randint(1, 10)
+print(random_integer)
+
+ii.
+import random
+states_of_usa = [
+    "Alabama", "Alaska", "Arizona", "Arkansas", "California",
+    "Colorado", "Connecticut", "Delaware", "Florida", "Georgia"
+]
+random_state = random.choice(states_of_usa)
+print(f"Randomly selected state: {random_state}")
