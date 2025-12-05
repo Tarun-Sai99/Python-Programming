@@ -3,7 +3,6 @@ Day 5 - Chapter 1
 => Loops let Python repeat code automatically instead of you writing the same line many times.
 => You will mainly use the for loop and the while loop.
 For loop:- repeat for each item in a sequence (like a list, string, or range).
-While loop:- repeat while a condition is true.
 
 Example for For Loop:- 
 i.
@@ -14,10 +13,4 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
 
-Example for While Loop:-
-i. 
-count = 1
-while count <= 5:
-    print(count)
-    count += 1
 
