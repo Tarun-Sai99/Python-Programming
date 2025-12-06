@@ -1,0 +1,73 @@
+Day 6 - Project 
+Maze game 
+
+def show_instructions():
+    print("Welcome to the Maze Escape!")
+    print("You are in a small maze with three rooms.")
+    print("Commands: left, right, forward, back, quit")
+    print()
+
+def get_player_move():
+    move = input("What do you do? ").lower()
+    return move
+
+def process_move(position, move):
+    # position: "start", "left_room", "right_room", "exit"
+    if position == "start":
+        if move == "left":
+            print("You go left into a dark room.")
+            return "left_room"
+        elif move == "right":
+            print("You go right into a room with a faint light.")
+            return "right_room"
+        elif move == "forward":
+            print("You hit a wall. Try another direction.")
+            return position
+        else:
+            print("You can't do that from here.")
+            return position
+
+    elif position == "left_room":
+        if move == "back":
+            print("You go back to the start.")
+            return "start"
+        elif move == "forward":
+            print("Dead end! You return to the start.")
+            return "start"
+        else:
+            print("Nothing useful that way.")
+            return position
+
+    elif position == "right_room":
+        if move == "forward":
+            print("You see a door and step through it...")
+            return "exit"
+        elif move == "back":
+            print("You go back to the start.")
+            return "start"
+        else:
+            print("You stumble around but stay in the same room.")
+            return position
+
+    return position
+
+def play_game():
+    show_instructions()
+    position = "start"
+    escaped = False
+
+    while not escaped:
+        move = get_player_move()
+
+        if move == "quit":
+            print("You gave up. The maze wins.")
+            break
+
+        position = process_move(position, move)
+
+        if position == "exit":
+            print("Congratulations! You escaped the maze!")
+            escaped = True
+
+# Start the game
+play_game()
