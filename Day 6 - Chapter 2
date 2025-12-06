@@ -1,0 +1,9 @@
+Day 6 - Chapter 2
+2) While Loop
+=> A while loop repeats a block of code as long as a condition is True.
+Examples:- 
+i.
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
